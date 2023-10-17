@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="dash.css">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class='bx bx-cog'></i>
+      <span class="logo_name">Dashboard</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="#" class="active">
+          <i class='bx bx-grid-alt'></i>
+          <span class="links_name">Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-box'></i>
+          <span class="links_name">Product</span>
+          <i class='bx bx-chevron-down'></i>
+          
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-user'></i>
+          <span class="links_name">Customer</span>
+          <i class='bx bx-chevron-down'></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-pie-chart-alt-2'></i>
+          <span class="links_name">Income</span>
+          <i class='bx bx-chevron-down'></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-coin-stack'></i>
+          <span class="links_name">Promote</span>
+          <i class='bx bx-chevron-down'></i>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-book-alt'></i>
+          <span class="links_name">Help</span>
+          <i class='bx bx-chevron-down'></i>
+        </a>
+      </li>
+      <li class="log_out">
+        <a href="#" class="active">
+          <div class="profile-details">
+            <img
+              src="https://www.superprof.com/images/teachers/teacher-home-offering-english-lessons-for-foreign-people-birmingham-possess-tefl-certification.jpg"
+              alt="">
+            <span class="admin_name">Evano<br><small style="color:rgb(141, 141, 226)">Project Manager</small> </span>
+            <i class='bx bx-chevron-down'></i>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <h4>Hello Shahrukh &#128075;,</h4>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;Search...">
+        <i class='bx bx-search'></i>
+      </div>
+    </nav>
+    <div class="home-content">
+      <div class="overview-boxes">
+        <div class="box">
+          <i class='bx bx-cart-alt cart'></i>
+          <div class="right-side">
+            <div class="box-topic">&nbsp;&nbsp;Earning</div>
+            <div class="number">&nbsp;&nbsp;$198K</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">&nbsp;&nbsp;37.8% this month</span>
+            </div>
+          </div>
+
+        </div>
+        <div class="box">
+          <i class='bx bxs-cart-add cart two'></i>
+          <div class="right-side">
+            <div class="box-topic">&nbsp;&nbsp;Orders</div>
+            <div class="number">&nbsp;&nbsp;$2.4K</div>
+            <div class="indicator">
+              <i class='bx bx-down-arrow-alt down'></i>
+              <span class="text">&nbsp;&nbsp;2% this month</span>
+            </div>
+          </div>
+
+        </div>
+        <div class="box">
+          <i class='bx bx-cart cart three'></i>
+          <div class="right-side">
+            <div class="box-topic">&nbsp;&nbsp;Balance</div>
+            <div class="number">&nbsp;&nbsp;$2.4K</div>
+            <div class="indicator">
+              <i class='bx bx-down-arrow-alt down'></i>
+              <span class="text">&nbsp;&nbsp;2% this month</span>
+            </div>
+          </div>
+
+        </div>
+        <div class="box">
+          <i class='bx bxs-cart-download cart four'></i>
+          <div class="right-side">
+            <div class="box-topic">&nbsp;&nbsp;Total Sales</div>
+            <div class="number">&nbsp;&nbsp;$89k</div>
+            <div class="indicator">
+              <i class='bx bx-up-arrow-alt'></i>
+              <span class="text">&nbsp;&nbsp;11% this week</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+      <div class="sales-boxes">
+        <div class="recent-sales box">
+          <div class="title">Product Sell</div>
+
+          <div class="sales-details">
+
+            <ul class="details">
+              <li class="topic">Product Name</li>
+
+              <li><a href="#">Absrtact 3D <br><p style="color: rgb(105, 103, 103);">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></a></li>
+              <li><a href="#">Sarphens illustration<p style="color: rgb(105, 103, 103);">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></a></li>
+            </ul>
+              <ul class="details">
+              <li class="topic">Stock</li>
+
+              <li><a href="#">32 in Stock</a></li><br>
+              <li><a href="#">32 in stock</a></li>
+            </ul>
+            <ul class="details">
+              <li class="topic">Price</li>
+
+              <li><a href="#">$45.99</a></li><br>
+              <li><a href="#">$45.99</a></li>
+            </ul>
+            <ul class="details">
+              <li class="topic">Total score</li>
+
+              <li><a href="#">20</a></li><br>
+              <li><a href="#">20</a></li>
+            </ul>
+          </div>
+          <div class="button">
+            <a href="#">See All</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+
+  </section>
+  <script src="dash.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  <script>
+    var xValues = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "July", "Aug", "sep", "oct", "Nov", "Dec"];
+    var yValues = ["3.5", "3", "4", "3", "3.5", "2.5", "4.5", "6", "6", "5.5", "5", "4.5", "2"]
+    var barColors = ["lightblue", "lightblue", "lightblue", "lightblue", "lightblue", "lightblue", "lightblue", "blue", "lightblue", "lightblue", "lightblue", "lightblue"];
+
+    new Chart("myChart", {
+      type: "bar",
+      data: {
+        labels: xValues,
+        datasets: [{
+          backgroundColor: barColors,
+          data: yValues
+        }]
+      },
+      options: {
+        legend: { display: false },
+        title: {
+          display: true,
+          text: "Overview"
+        }
+      }
+    });
+  </script>
+
+</body>
+
+</html>
